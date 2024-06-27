@@ -41,7 +41,7 @@ class Gps:
             lat_point.append(lnglat_point[i][1])
             lng_point.append(lnglat_point[i][0])
         gmap.plot(lat_point , lng_point, 'cornflowerblue', edge_width = 3.0)
-        gmap.draw('./results/map.html')
+        gmap.draw('./map.html')
         self.way_point = list(zip(lat_point,lng_point))
         
         return self.way_point
@@ -59,7 +59,7 @@ class Gps:
                 lng = int(GPS_data2[2])*(1E-7)
                 self.robot_location = [lat,lng]
                 #每次執行這個Function就把目前的坐標寫入的GPS_path.csv
-                f = open('./results/GPS_path.csv',mode='a',newline='')
+                f = open('./GPS_path.csv',mode='a',newline='')
                 writer = csv.writer(f)
                 writer.writerow(self.robot_location)
                 f.close()
