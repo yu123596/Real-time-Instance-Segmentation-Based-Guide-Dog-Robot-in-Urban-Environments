@@ -232,7 +232,7 @@ while True:
         cam.close()
         print("\nFINISH")
         time.sleep(1)
-
+ 
     # if data_raw == 'O':
     #     print("object detection mode")
     #     weights = "./weights/yolact_edge_resnet50_54_800000.pth"
