@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import csv
 from random import sample
 
-key="AIzaSyC_kBNkeFbIhz155RVDMvl8PEiH0VObMlc"
+key=""
 gmaps=googlemaps.Client(key)
 origin = "24.1796933, 120.6474330"
 destination = "24.179035,120.651736" #school back door
