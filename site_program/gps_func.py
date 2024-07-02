@@ -14,7 +14,7 @@ import math
 
 class Gps:
     def __init__(self):
-        self.key = "AIzaSyC_kBNkeFbIhz155RVDMvl8PEiH0VObMlc"
+        self.key = ""
         self.destination = "24.179035,120.651736"
         self.mode = "walking"
         self.traffic_model = "optimistic"
