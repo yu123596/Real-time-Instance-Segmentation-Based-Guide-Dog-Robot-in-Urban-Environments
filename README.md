@@ -4,4 +4,3 @@ This is my paper in feng chia university master degree. Here is the robot and fo
 
 This study presents a guide dog robot based on deep learning convolutional neural networks, aimed at addressing the shortage of guide dogs due to their challenging training requirements.
 
-![Uploading 機器人導航模式的流程圖_簡略版.png…]()
